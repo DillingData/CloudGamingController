@@ -12,3 +12,8 @@ C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelControlle
 C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.pdb
 C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.genruntimeconfig.cache
 C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\ref\CloudGaminWheelController.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\Nefarius.ViGEm.Client.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\SharpDX.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\SharpDX.DirectInput.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.csproj.AssemblyReference.cache
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGam.656E45BE.Up2Date
