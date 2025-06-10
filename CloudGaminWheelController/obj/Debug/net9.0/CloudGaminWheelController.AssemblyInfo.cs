@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CloudGaminWheelController")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af2149be4852ff620af14073d7e5c5f66d2fc42a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CloudGaminWheelController")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CloudGaminWheelController")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
