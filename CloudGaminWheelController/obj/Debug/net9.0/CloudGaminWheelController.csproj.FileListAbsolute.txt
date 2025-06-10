@@ -1,0 +1,14 @@
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\CloudGaminWheelController.exe
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\CloudGaminWheelController.deps.json
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\CloudGaminWheelController.runtimeconfig.json
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\CloudGaminWheelController.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\bin\Debug\net9.0\CloudGaminWheelController.pdb
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.AssemblyInfoInputs.cache
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.AssemblyInfo.cs
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.csproj.CoreCompileInputs.cache
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\refint\CloudGaminWheelController.dll
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.pdb
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\CloudGaminWheelController.genruntimeconfig.cache
+C:\Users\dilli\Documents\Programming\LogitechController\CloudGaminWheelController\obj\Debug\net9.0\ref\CloudGaminWheelController.dll
