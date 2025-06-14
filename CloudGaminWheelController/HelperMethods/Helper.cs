@@ -16,4 +16,19 @@ public class Helper
 
         return (short)(normalized * short.MaxValue * 2 - short.MaxValue);
     }
+
+    public static byte NormalizeAxisToByte(int value, bool invert = false, double deadzone = 0.05)
+    {
+        double normalized = value / 65535.0;
+
+        if (invert)
+            normalized = 1.0 - normalized;
+
+        /*
+        if (normalized < deadzone)
+            normalized = 0;
+        */
+
+        return (byte)(normalized * 255);
+    }
 }

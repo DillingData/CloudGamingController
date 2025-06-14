@@ -28,9 +28,9 @@ public class LogitechG923
             controller.SetAxisValue(Xbox360Axis.RightThumbY, rt);
 
             // Brake
-            short lt = Helper.NormalizeAxisToShort(state.RotationZ, invert: true);
+            byte lt = Helper.NormalizeAxisToByte(state.RotationZ, invert: true);
             //controller.SetSliderValue(0, lt);
-            controller.SetAxisValue(Xbox360Axis.LeftThumbY, lt);
+            controller.SetSliderValue(Xbox360Slider.LeftTrigger, lt);
 
             //Console.WriteLine($"X: {state.X}, Y: {state.Y}, Z: {state.Z}, Rx: {state.RotationX}, Ry: {state.RotationY}, Rz: {state.RotationZ}");
 
@@ -42,6 +42,27 @@ public class LogitechG923
                 {
                     Console.WriteLine($"Button {i} is pressed");
                 }
+            }
+
+            // Assuming you've polled the device and have the state
+            int pov = state.PointOfViewControllers[0];  // 0–35900 degrees, or -1 for neutral
+
+            if (pov == -1)
+            {
+                Console.WriteLine("D-Pad not pressed");
+            }
+            else
+            {
+                if (pov >= 0 && pov < 4500)
+                    Console.WriteLine("D-Pad Up");
+                else if (pov >= 4500 && pov < 13500)
+                    Console.WriteLine("D-Pad Right");
+                else if (pov >= 13500 && pov < 22500)
+                    Console.WriteLine("D-Pad Down");
+                else if (pov >= 22500 && pov < 31500)
+                    Console.WriteLine("D-Pad Left");
+                else
+                    Console.WriteLine("D-Pad Up (diagonal or wrap-around)");
             }
 
             controller.SetButtonState(Xbox360Button.B, buttons[2]); // B button
