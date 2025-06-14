@@ -32,8 +32,6 @@ public class LogitechG923
             //controller.SetSliderValue(0, lt);
             controller.SetSliderValue(Xbox360Slider.LeftTrigger, lt);
 
-            //Console.WriteLine($"X: {state.X}, Y: {state.Y}, Z: {state.Z}, Rx: {state.RotationX}, Ry: {state.RotationY}, Rz: {state.RotationZ}");
-
             var buttons = state.Buttons;
 
             for (int i = 0; i < buttons.Length; i++)
@@ -44,9 +42,9 @@ public class LogitechG923
                 }
             }
 
-            // Assuming you've polled the device and have the state
-            int pov = state.PointOfViewControllers[0];  // 0–35900 degrees, or -1 for neutral
+            //int pov = state.PointOfViewControllers[0];  // 0–35900 degrees, or -1 for neutral
 
+            /*
             if (pov == -1)
             {
                 Console.WriteLine("D-Pad not pressed");
@@ -64,6 +62,7 @@ public class LogitechG923
                 else
                     Console.WriteLine("D-Pad Up (diagonal or wrap-around)");
             }
+            */
 
             controller.SetButtonState(Xbox360Button.B, buttons[2]); // B button
             controller.SetButtonState(Xbox360Button.A, buttons[0]); // A button
